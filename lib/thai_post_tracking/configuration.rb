@@ -11,12 +11,12 @@ module ThaiPostTracking
   end
 
   class Configuration
-    attr_accessor :api_key
+    attr_accessor :thailand_post_token
     attr_reader :version
 
     def initialize
       @version = VERSION
-      @api_key = 'replace-me-with-api_key'
+      @thailand_post_token_key = "replace-with-your-token"
     end
   end
 end
