@@ -3,9 +3,7 @@
 Simple implementation of Postal services API in Thailand.
 Don't have a proper test/spec at the moment, use at your own risk.
 
-
 ## Configure
-
 
 ```ruby
 ThaiPostTracking.configure do |config|
